@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form__item {
+    margin: 0 auto 20px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label{
+    padding-bottom: 10px;
+}
+
+input {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.form__button {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 50px auto 0;
+}
+
+button {
+    margin-bottom: 30px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
